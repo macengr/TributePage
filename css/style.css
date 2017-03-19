@@ -1,0 +1,141 @@
+/* CSS for tribute page */
+
+body {
+	height: 100%;
+	max-height: 100%;
+	margin: 0 auto;
+	background-color: lightblue;
+}
+
+/* For older browsers */
+article, aside, figure, footer, header, hgroup, nav, section {
+  display:block;
+}
+
+
+header {
+	background-color: lightgray;
+  border-bottom: 2px solid gray;
+}
+
+.biography {
+  border-bottom: 2px solid gray;
+  display: flex;
+  height: auto;
+}
+
+#navbar ul {
+  margin-top: 4px;
+  text-align: center;
+}
+
+#navbar li {
+  margin-top: 4px;
+  font-size: 24px;
+  list-style-type: none;
+  display: inline;
+}
+
+button {
+  -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+}
+
+h1 {
+	color: darkblue;
+	font-family: 'Gravitas One', 'Arial Black', serif;
+  font-weight: normal;
+  text-align: center;
+  padding-top: 20px;
+  
+}
+
+#bioPara1 {
+  float: left;
+  width: 33%;
+}
+
+#img-div {
+	padding: 50px;
+  width : 34%;
+}
+#image {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: auto;
+}
+
+#bioPara2 {
+  position: relative;
+  float: right;
+  width: 33%;
+}
+
+#img-caption {
+  text-align: center;
+}
+
+#additional {
+  background-color: lightgray;
+  height: 250px;
+}
+h2 {
+  text-align: center;
+}
+
+#additional {
+  margin-bottom: 30px;
+  border-bottom: 2px solid gray;
+}
+
+.linkage, .biblio {
+  margin-top: 10px;
+
+}
+
+#links {
+  float: left;
+  width: 50%;
+}
+
+#bibliography {
+  float: right;
+  width: 50%;
+}
+
+#chronology {
+  border-bottom: 2px solid gray;
+}
+
+#chronology ul li {
+  list-style-type: none;
+}
+
+.year {
+  font-weight: bold;
+}
+
+#oodaLoop {
+  border-bottom: 2px solid gray;
+  background-color: lightgray;
+  color: darkblue;
+}
+.oodaImg {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: auto;
+}
+
+figure {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+address {
+  text-align: center;
+  font-size: 12px;
+}
